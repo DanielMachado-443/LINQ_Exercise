@@ -3,28 +3,23 @@
 </div>
 
 <p align="center">
-  Unbreakable Console Products .csv Exporter
+  C# LINQ Exercise
 </p>
 
 ---
 
 ## Description
 
-- This is a weird experimental source code where I think that I've covered almost any circumstances that could lead the execution to be broken while reading the user inputs. Also, it reads and creates lists of products to be exported in a .csv format. Enjoy!
+- This is a LINQ exercise application that reads a .csv file and prints the results of some queries using the .Net LINQ libraries to simplify the task.
 
 ## How to start
 
-- In order to start the game, you must have Visual Studio installed with Windows Forms package
+- In order to start seeing the code, you must have Visual Studio installed with C# packages
 
 ## About the code
 
-- The code is made up of a scheme in which we ALWAYS have a try/catch (green arrow) inside of a while (red square), meaning that any triggered exception will be caught and will as well force the execution line to return to the beginning of the while. The blue arrows are showing us the Int32.TryParse method, which will reveal IF the written input is, at least, a string, otherwise it will trigger a personal exception that will cause the execution to be brought up the same way.
+- As you should notice, if we take the first method as an example, we can see that we have a static method called firstQuery (red square), receiving a IEnumarable object AND a double containing a query relevant data. The return then will be an IEnumerable object with the employees emails by their email's first letter alphabetic order
  
 <a title="Winforms Product Lister">
-  <img src="https://i.imgur.com/PfZy6un.png"/>
+  <img src="https://i.imgur.com/VXH9Qao.png"/>
 </a>
-
-
-## TODO
-
-- I think that this code is really able to be enhanced with clarity and less lines, as well as a cleaver logic to achieve the same results, feel free to do your own version of it and share that with us.
